@@ -24,6 +24,7 @@ app.use("/api/v1/auth", authRoutes);
 
 
 
-app.listen(8000,()=>{
+
+app.listen(8080,()=>{
     console.log("Server is running on port 8000");
 })
